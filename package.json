@@ -1,11 +1,11 @@
 {
-  "name": "goit-js-hw-10-02",
+  "name": "goit-js-hw-11",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-10-02/",
+    "build": "vite build --base=/goit-js-hw-11/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -17,9 +17,13 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.9",
     "izitoast": "^1.4.0",
     "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
-  }
+  },
+  "description": "Bu proje Vite kullanılarak oluşturulmuştur. Ek özelliklerin tanınması ve özelleştirilmesi için [belgelere bakın](https://vitejs.dev/).",
+  "main": "vite.config.js",
+  "keywords": []
 }

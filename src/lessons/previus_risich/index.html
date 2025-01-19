@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form-inline search-form js-search-form">
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="searchQuery" class="sr-only">What we're looking for?</label>
+            <input type="text" class="form-control" name="query" id="searchQuery" placeholder="What we're looking for?" autocomplete="off">
+        </div>
+        <buttom type="submit" class="btn btn-primary mb-2">Search</buttom>
+    </form> 
+    <ul class="articles js-articles-container"></ul>
+    <button type="button" class="btn btn-primary button" data-action="load-more">
+        <span class="spinner-border spinner-border-sm spinner is-hidden" role="status" aria-hidden="true"></span>
+        <span class="label">Show more</span>
+    </button>  
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

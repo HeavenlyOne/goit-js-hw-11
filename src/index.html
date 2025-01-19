@@ -10,11 +10,13 @@
   <body>
     <div class="container">
       <form action="submit" class="js-form form">
-        <input class="input-form" type="text" placeholder="Search images...">
+        <input class="input-form" type="text" name="input" placeholder="Search images...">
         <button type="submit">Search</button>
       </form>
-      <span class="loader hidden"></span>
+      <span class="loader js-submit-loader hidden"></span>
       <ul class="js-gallery gallery-list"></ul>
+      <button class="js-load-more btn-more hidden">Load more</button>
+      <span class="loader js-more-loader hidden"></span>
     </div>
     <script type="module" src="./main.js"></script>
   </body>
